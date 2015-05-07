@@ -42,6 +42,7 @@ public class MusicPlayer {
 			audioInputStream.close();
 			decodeAudioInputStream.close();
 			clips.put(fileName, this.clip);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
